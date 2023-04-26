@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 20px 15px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+  padding: 10px 0;
+}
+textarea {
+  font-size: 2em;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+  margin: 20px 0;
+  height: 300px;
+  word-wrap: break-word;
+}
+#preview {
+  background-color: #171514;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  word-wrap: break-word;
+  overflow-x: auto;
+}
